@@ -1,0 +1,90 @@
+/* Estilo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:grey;
+}
+
+/* Encabezado */
+header {
+    background-color:green;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+    background-color: white;
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #999;
+}
+
+th, td {
+    padding: 30px;
+    text-align: center;
+}
+
+td[contenteditable="true"] {
+    background-color: #ffffe0;
+    cursor: text;
+}
+
+/* Imágenes en la galería */
+figure {
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #333;
+}
+
+/* Pie de página */
+footer {
+    background-color: #669900;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
